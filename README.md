@@ -6,6 +6,6 @@ The goal of this assignment is to convert a design into a fully functional and r
 
 ## 🎨 Design Inspiration
 
-#### ✔ Check out our Figma design to see the inspiration behind the Sunset Cafe | App:
+#### ✔ Check out our Figma design to see the inspiration behind:
 
 - [TuteDude Figma Design](https://www.figma.com/design/oMqUuJb959zA6P3FIudJiM/Assignment?node-id=0%3A1&t=j55LZEHj0IGll4bQ-1)
