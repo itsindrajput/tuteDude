@@ -1,8 +1,11 @@
-# React + Vite
+# Internship Assignment: Figma to Code
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌟 Objective
 
-Currently, two official plugins are available:
+The goal of this assignment is to convert a design into a fully functional and responsive web page using React and vanilla CSS. And required to replicate the provided Figma design as closely as possible.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎨 Design Inspiration
+
+#### ✔ Check out our Figma design to see the inspiration behind the Sunset Cafe | App:
+
+- [TuteDude Figma Design](https://www.figma.com/design/oMqUuJb959zA6P3FIudJiM/Assignment?node-id=0%3A1&t=j55LZEHj0IGll4bQ-1)
