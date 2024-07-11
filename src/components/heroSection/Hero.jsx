@@ -34,7 +34,9 @@ const Hero = () => {
   return (
     <>
       <div className={style.section_one}>
-        <h5>🎓 An IIT Delhi Alumni Initiative</h5>
+        <h5>
+          🎓 An <b>IIT Delhi</b> Alumni Initiative
+        </h5>
         <h1>
           Become an Expert in the field of <b> Data Science with 6 courses</b>
         </h1>
