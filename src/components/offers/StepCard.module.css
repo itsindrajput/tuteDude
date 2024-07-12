@@ -1,0 +1,167 @@
+.stepCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 22px;
+  width: 350px;
+  width: 33.3%;
+  list-style-type: none;
+  position: relative;
+}
+.stepCard_steps {
+  width: 100%;
+  background-color: #992e9d;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  isolation: isolate;
+  width: 131px;
+  height: 50px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #fcf5fe;
+}
+.card_hr {
+  content: "";
+  position: absolute;
+  width: 275px;
+  height: 4px;
+  left: calc(100% - 225px / 2 + 0.5px);
+  top: 22.5px;
+  background-color: #dcdcef;
+}
+.stepCard_bgColor {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 16px;
+  width: 350px;
+  height: 254px;
+  background: linear-gradient(180deg, #ffffff 0%, #fcf5fe 100%);
+  border: 1px solid #f9ebfc;
+  border-radius: 20px;
+}
+.stepCard_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #7f2781;
+}
+.card_image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.stepCard_description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #3b3b3e;
+}
+
+/*Css for the mediam large screen*/
+@media only screen and (min-width: 800px) and (max-width: 1100px) {
+  .stepCard_bgColor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 16px;
+    width: 250px;
+    height: 280px;
+  }
+  .stepCard_title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    color: #7f2781;
+  }
+  .card_hr {
+    content: "";
+    position: absolute;
+    width: 174px;
+    height: 4px;
+    left: calc(100% - 125px / 2 + 0.5px);
+    top: 22.5px;
+    background-color: #dcdcef;
+  }
+}
+
+/*Css for the tablet size screen*/
+@media only screen and (min-width: 650px) and (max-width: 800px) {
+  .stepCard_bgColor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 10px;
+    gap: 10px;
+    width: 200px;
+    height: 245px;
+  }
+  .stepCard_title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    color: #7f2781;
+  }
+  .card_hr {
+    content: "";
+    position: absolute;
+    width: 125px;
+    height: 4px;
+    left: calc(100% - 75px / 2 + 0.5px);
+    top: 22.5px;
+    background-color: #dcdcef;
+  }
+  .stepCard_description {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3b3b3e;
+  }
+}
+
+/*Css for the mobile size screen*/
+@media only screen and (max-width: 650px) {
+  .stepCard_steps {
+    display: none;
+  }
+  .card_hr {
+    display: none;
+  }
+  .stepCard_bgColor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 10px;
+    gap: 10px;
+    width: 200px;
+    height: 245px;
+  }
+  .stepCard_title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    color: #7f2781;
+  }
+  .stepCard_description {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3b3b3e;
+  }
+}

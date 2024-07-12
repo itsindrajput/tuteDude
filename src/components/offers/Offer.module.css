@@ -1,0 +1,241 @@
+.offer_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8% 10%;
+  gap: 56px;
+  background-color: #ffffff;
+}
+.offer_Container h1 {
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 68px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #686972;
+}
+.offer_Container h1 span {
+  background: linear-gradient(180deg, #b73bbe 0%, #992e9d 93.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.refund_Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 20px;
+  gap: 12px;
+  isolation: isolate;
+  background: linear-gradient(180deg, #9849ff 0%, #841ee3 93.51%);
+  box-shadow: 0px 16px 36px -10px rgba(152, 73, 255, 0.25);
+  border-radius: 32px;
+}
+.refund_Card h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
+}
+.scrollbar_Container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 14px;
+}
+.scrollbar {
+  width: 558px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+  position: relative;
+}
+.scrollbar div {
+  position: absolute;
+  width: 159px;
+  height: 10px;
+  left: 0px;
+  top: 0px;
+  background: #ffc41b;
+  box-shadow: inset 0px 2px 2px rgba(255, 255, 255, 0.25);
+  border-radius: 100px;
+}
+.scrollbar div::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 148px;
+  top: calc(50% - 22px / 2);
+  background: #ffc41b;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.scrollbar_firstChild {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.scrollbar_lastChild {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.step_Card_Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 20px;
+}
+.work_Card_Container h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #450d45;
+  margin-bottom: 25px;
+}
+
+/*Css for the mediam large screen*/
+@media only screen and (min-width: 800px) and (max-width: 1222px) {
+  .offer_Container {
+    padding: 10%;
+    gap: 56px;
+  }
+  .offer_Container h1 {
+    width: 100%;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+
+/*Css for the tablet range devices*/
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .offer_Container {
+    padding: 10% 5%;
+    gap: 46px;
+  }
+  .offer_Container h1 {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 26px;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+  }
+
+  .refund_Card {
+    padding: 32px 20px;
+    gap: 12px;
+  }
+  .refund_Card h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .scrollbar {
+    width: 401px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 100px;
+    position: relative;
+  }
+}
+
+/*Css for the mobile range devices*/
+@media only screen and (max-width: 500px) {
+  .offer_Container {
+    padding: 50px 20px;
+    gap: 40px;
+  }
+  .offer_Container h1 {
+    text-align: left;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .refund_Card {
+    padding: 20px;
+    gap: 12px;
+  }
+  .refund_Card h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .scrollbar {
+    width: 201px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 100px;
+    position: relative;
+  }
+  .scrollbar div {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+  }
+  .scrollbar div::after {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 95px;
+    top: calc(50% - 22px / 2);
+  }
+  .scrollbar_firstChild {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10px;
+    padding-top: 10px;
+  }
+  .scrollbar_lastChild {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+  }
+}
+
+/*Css for the mobile range devices*/
+@media only screen and (max-width: 650px) {
+  .step_Card_Container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 20px;
+  }
+  .work_Card_Container h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #450d45;
+    margin-bottom: 25px;
+  }
+}
