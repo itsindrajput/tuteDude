@@ -1,0 +1,43 @@
+.singleCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px;
+  gap: 12px;
+  border-bottom: 1px solid #e5e5e8;
+  width: 100%;
+}
+.content {
+  align-items: center;
+}
+.content h1 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #4c4d52;
+}
+.content p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #83848d;
+}
+.singleCard button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 24px;
+  gap: 10px;
+  background: #fcf5fe;
+  border: 1px solid #f9ebfc;
+  border-radius: 1000px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #b73bbe;
+  cursor: pointer;
+}

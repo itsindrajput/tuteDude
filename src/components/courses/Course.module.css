@@ -1,0 +1,50 @@
+.course_container {
+  background-color: #fcf5fe;
+  margin-top: 6%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.course_title {
+  width: 25em;
+  margin: 0 auto;
+  padding: 14px;
+  background: #f9ebfc;
+  border: 1px solid #f4d6f8;
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  word-spacing: 4px;
+  color: #992e9d;
+  margin-bottom: 25px;
+}
+.course_heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #4c4d52;
+  margin-bottom: 40px;
+}
+.course_heading b {
+  background: linear-gradient(91.98deg, #b73bbe 1.46%, #ebcb2e 57.17%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cardContainer {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e8;
+  border-radius: 28px;
+}
