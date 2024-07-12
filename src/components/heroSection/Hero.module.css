@@ -140,6 +140,14 @@
     color: #595961;
     margin-bottom: 10px;
   }
+  .award li {
+    padding: 10px 5px 10px 10px;
+    gap: 6px;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
 
   .section_two {
     display: none;
@@ -161,7 +169,7 @@
     font-weight: 400;
   }
   .section_one h1 {
-    width: 98%;
+    width: 100%;
     font-weight: 700;
     font-size: 28px;
     line-height: 48px;
@@ -173,6 +181,50 @@
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 25px;
+  }
+  .award {
+    display: flex;
+    flex-grow: inherit;
+    flex-wrap: wrap;
+  }
+  .award li {
+    padding: 10px 5px 10px 10px;
+    gap: 6px;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .award span {
+    display: none;
+  }
+  .enroll {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .enroll li {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .enroll li button {
+    width: 100%;
+    margin: 0 auto;
+    padding: 18px 25px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 0px;
+    margin-top: 15px;
+  }
+  .enroll li:nth-child(2) {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #992e9d;
+    cursor: pointer;
   }
 
   .section_two {

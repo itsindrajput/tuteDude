@@ -46,9 +46,15 @@ const Hero = () => {
         </p>
 
         <ul className={style.award}>
-          <li>✴️ Personal Mentorship</li>
-          <li>✴️ Internship Assistance</li>
-          <li>✴️ Industry Certified Courses</li>
+          <li>
+            <span>✴️</span> Personal Mentorship
+          </li>
+          <li>
+            <span>✴️</span> Internship Assistance
+          </li>
+          <li>
+            <span>✴️</span> Industry Certified Courses
+          </li>
         </ul>
 
         <ul className={style.enroll}>
