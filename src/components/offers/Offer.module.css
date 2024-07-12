@@ -115,6 +115,9 @@
   color: #450d45;
   margin-bottom: 25px;
 }
+.mobile_steps {
+  display: none;
+}
 
 /*Css for the mediam large screen*/
 @media only screen and (min-width: 800px) and (max-width: 1222px) {
@@ -237,5 +240,62 @@
     letter-spacing: -0.03em;
     color: #450d45;
     margin-bottom: 25px;
+  }
+
+  .mobile_steps_container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+  .mobile_steps {
+    display: block;
+  }
+  .mobile_steps ul {
+    list-style-type: none;
+    gap: 210px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .mobile_steps li {
+    width: 100px;
+    background-color: #992e9d;
+    clip-path: polygon(100% 68%, 50% 100%, 0 70%, 0 0, 50% 20%, 100% 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    isolation: isolate;
+    width: 45px;
+    height: 60px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #fcf5fe;
+  }
+  .mobile_hr1 {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 224px;
+    top: 58px;
+    left: 23px;
+    background-color: #dcdcef;
+  }
+  .mobile_hr2 {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 224px;
+    top: 328px;
+    left: 23px;
+    background-color: #dcdcef;
   }
 }

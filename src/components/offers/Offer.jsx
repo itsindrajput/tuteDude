@@ -52,18 +52,28 @@ const Offer = () => {
 
         <div className={style.work_Card_Container}>
           <h3>How does it work?</h3>
-
-          <div className={style.step_Card_Container}>
-            {stepData.map((data, index) => (
-              <StepCard
-                key={index}
-                step={data.step}
-                title={data.title}
-                image={data.image}
-                description={data.description}
-                index={index}
-              />
-            ))}
+          <div className={style.mobile_steps_container}>
+            <div className={style.mobile_steps}>
+              <ul>
+                <li>1</li>
+                <span className={style.mobile_hr1}></span>
+                <li>2</li>
+                <span className={style.mobile_hr2}></span>
+                <li>3</li>
+              </ul>
+            </div>
+            <div className={style.step_Card_Container}>
+              {stepData.map((data, index) => (
+                <StepCard
+                  key={index}
+                  step={data.step}
+                  title={data.title}
+                  image={data.image}
+                  description={data.description}
+                  index={index}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </div>
