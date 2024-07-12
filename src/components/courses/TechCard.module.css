@@ -32,7 +32,7 @@
   gap: 10px;
   background: #fcf5fe;
   border: 1px solid #f9ebfc;
-  border-radius: 1000px;
+  border-radius: 100px;
 
   font-weight: 500;
   font-size: 20px;
@@ -40,4 +40,40 @@
   text-align: center;
   color: #b73bbe;
   cursor: pointer;
+}
+
+/*Css for the mobile view*/
+@media only screen and (max-width: 500px) {
+  .singleCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+  }
+  .content h1 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .content p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .singleCard button {
+    width: 100%;
+    padding: 16px 20px;
+    gap: 10px;
+    background: #fcf5fe;
+    border: 1px solid #f9ebfc;
+    border-radius: 15px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #b73bbe;
+    cursor: pointer;
+  }
 }
